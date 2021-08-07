@@ -1,0 +1,301 @@
+/* xs device */
+/* xs device */
+/* xs device */
+/* xs design in 375 */
+
+@media (min-width: 0) and (max-width: 575px) { 
+
+    .navbar-toggler-icon{
+        background-color: aliceblue;
+    }
+
+    .navbar-light .navbar-toggler {
+        
+        border: 0 !important;
+    }
+
+    .navbar-toggler {
+      
+        background-color: aliceblue;
+        border: 0px ;
+    }
+
+    #banner .next {
+        display: none !important;
+    }
+    #banner .prev {
+        display: none !important;
+    }
+
+    .who-we-text p {
+        text-align: justify;
+    }
+
+    .falgun {
+        left: 12% !important;
+    }
+
+    .te-txt h3::before {
+        left: 36px !important;
+    }
+
+
+
+    #finishline {
+        height: 100px !important;
+        text-align: center;
+    }
+
+    .interok-txt {
+        text-align: center !important;
+        line-height: 100px !important;
+    }
+
+    .f-txt p {
+      display: none;
+    }
+
+    .by-txt p {
+       display: none;
+    }
+
+    .banner-main .slick-dots li {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .banner-main .slick-dots li button {
+        height: 6px !important;
+        width: 6px !important;
+        margin: 5px 5px !important;
+    }
+
+    .banner-text h1 {
+        padding-bottom: 0px;
+        font-size: 32px !important;
+    }
+
+    .banner-text p {
+        font-size: 18px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .who-we-text {
+        padding-left: 50px !important;
+    }
+
+    .who-we-text button {
+        padding: 16px 88px !important;
+       
+    }
+}
+
+/* sm device */
+/* sm device */
+/* sm device */
+/* sm design in 667 landscape of 375 */
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    .navbar-toggler {
+        background-color: #ffffffe3;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    #banner .next {
+        display: none !important;
+    }
+    #banner .prev {
+        display: none !important;
+    }
+
+    .falgun {
+        left: 32% !important;
+    }
+
+    .te-txt h3::before {
+        left: 115px !important;
+    }
+
+    
+
+    #finishline {
+        height: 100% !important;
+    }
+
+    .f-txt p {
+      display: none !important;
+    }
+
+    .by-txt p {
+        display: none !important;
+    }
+
+    .interok-txt {
+        text-align: center !important;
+    }
+}
+
+/* md device */
+/* md device */
+/* md device */
+/* md device */
+/* md design in 768 */
+
+@media(min-width:768px) and (max-width:991px){
+
+    .f-txt p {
+        display: none !important;
+      }
+
+
+      .by-txt p {
+        display: none !important;
+    }
+
+    .interok-txt {
+        text-align: center !important;
+    }
+
+
+    .te-txt h3::before {
+        left: 210px !important;
+    }
+    .falgun {
+        left: 33% !important;
+    }
+
+    .navbar-toggler {
+        background-color: #ffffffe3;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    #banner .next {
+        display: none !important;
+    }
+    #banner .prev {
+        display: none !important;
+    }
+
+    .who-we-text p {
+        text-align: justify;
+    }
+
+    .who-we-text {
+        padding-right: 80px; 
+    }
+}
+
+/* lg device */
+/* lg device */
+/* lg device */
+/* lg design in 1024 */
+
+@media(min-width:992px) and (max-width:1199px){
+
+    .who-we-text h3 {
+        padding-top: 30px !important;
+    }
+
+    .who-we-text p {
+        padding-top: 20px !important;
+        text-align: justify !important;
+    }
+
+    .niceshorearshytan {
+        margin-top: 30px !important;
+        margin-bottom: 18px !important;
+    }
+
+    .who-we-text {
+        padding: 0 20px ;
+        
+    }
+
+    .falgun {
+        left: 37% ;
+    }
+
+    .te-txt h3::before {
+        left: 330px !important;
+    }
+
+    button, input, optgroup, select, textarea {
+        font-size: 12px;
+    }
+
+}
+
+/* xlg device */
+/* xlg device */
+/* xlg device */
+/* xlg design in 1366 */
+
+@media(min-width:1200px) and (max-width:1399px){
+
+
+    .niceshorearshytan {
+        margin-bottom: 46px !important;
+    }
+
+
+
+}
+
+
+/* xxlg device */
+/* xxlg device */
+/* xxlg device */
+/* xxlg design on 1440 */
+
+@media(min-width:1400px) and (max-width:1920px){
+
+
+    .niceshorearshytan {
+        margin-top: 110px;
+        margin-bottom: 50px;
+    }
+
+
+
+    .who-we-text p {
+        padding-top: 30px ;
+        text-align: justify ;
+    }
+
+    .who-we-text {
+        padding-right: 80px;
+    }
+
+    .te-txt h3::before {
+        left: 510px;
+    }
+}
+
+/* xxlg device design in 1920 */
+
+@media(min-width:1400px) and (max-width:1920px){
+
+
+    .niceshorearshytan {
+        margin-top: 285px;
+    }
+
+    .who-we-text { 
+        padding-right: 100px;
+    }
+
+    .who-we-text p {
+        font-size: 16px;
+    }
+
+    .falgun {
+        left: 43%;
+    }
+}

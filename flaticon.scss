@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?7cec15aaf87771b3096121629e9d349b") format("truetype"),
+url("./flaticon.woff?7cec15aaf87771b3096121629e9d349b") format("woff"),
+url("./flaticon.woff2?7cec15aaf87771b3096121629e9d349b") format("woff2"),
+url("./flaticon.eot?7cec15aaf87771b3096121629e9d349b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7cec15aaf87771b3096121629e9d349b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "customer-support": "\f101",
+    "layers": "\f102",
+    "speedometer": "\f103",
+    "insurance": "\f104",
+    "canvas": "\f105",
+    "globe": "\f106",
+);
+
+.flaticon-customer-support:before {
+    content: map-get($flaticon-map, "customer-support");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-speedometer:before {
+    content: map-get($flaticon-map, "speedometer");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-canvas:before {
+    content: map-get($flaticon-map, "canvas");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}

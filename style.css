@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+}
+/* menu part start */
+
+
+.menupart{
+    position: fixed;
+    background-color: rgb(0, 0, 0,0.6);
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.menupart ul{
+    padding-top: 20px;
+}
+.menupart ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white !important;
+    transition: 0.3s;
+    padding-right: 1rem !important; 
+    padding-left: 1rem !important;
+}
+.menupart ul li a:hover{
+    color: #ffc155 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e7ad48 !important;
+}
+
+
+/* menu part end */
+/* banner part stat */
+#banner{
+    position: relative;
+}
+.banner-image{
+    padding-top: 245px;
+    padding-bottom: 100px;
+}
+.banner-text h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.banner-text p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+.banner-text .btn a{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: #709dca;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.banner-main .slick-dots{
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    
+}
+.banner-main .slick-dots li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0 8px;
+}
+.banner-main .slick-dots li button{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    color: transparent;
+    border: none;
+    margin-top: 9px;
+    margin-left: 9px;
+    opacity: 0;
+}
+.banner-main .slick-dots li.slick-active button{
+    opacity: 1;
+}
+#banner .prev{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    color: #ffc155;
+    z-index: 1;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding-left: 11px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#banner .next{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    color: #ffc155;
+    z-index: 1;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding-left: 14px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+/* banner part end */
+
+
+.heading h2{
+    color: #709dca;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.heading p{
+    color: #394b50;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+#what-we-do-part .leftdetails{
+    padding-top: 80px;
+   
+}
+
+#what-we-do-part .leftdetails h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #394b50;
+    font-size: 16px;
+}
+
+#what-we-do-part .leftdetails p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #7b7b7b;
+    font-size: 13px;
+    padding-top: 20px;
+}
+.leftdetails i{
+    color: #709dca;
+    font-size: 28px;
+    padding-right: 10px;
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    top: 74px;
+}
+.leftdetails i:hover{
+    color: #ffc155;
+}
+.leftdetails{
+    position: relative;
+    padding-left: 50px;
+    
+}
+/* who we are part start */
+
+#who-we-are{
+    margin-top: 100px;
+}
+.who-we-text{
+    padding-left: 100px;
+    padding-right: 50px;
+    background-color: #ffc155;
+}
+
+.who-we-text h3{
+    padding-top: 90px;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.who-we-text p{
+    padding-top: 40px;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.who-we-text button{
+    padding-top: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 45px;
+    background-color: #e7ad48;
+    border: 2px solid #ce9f03;
+}
+.niceshorearshytan{
+    margin-top: 63px;
+    margin-bottom: 39px;
+}
+/* who we are part end */
+/* our work part start */
+
+.work-headings{
+    margin-top: 100px;
+
+}
+.work-headings h3{
+    color: #709dca;
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.work-headings p{
+    color: #062033;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.work-headings i{
+    color: #ffc155;
+    font-size: 24px;
+    padding-top: 17px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.work-headings  i::after{
+    position: absolute;
+    content: '';
+    top: 28px;
+    left: 175%;
+    height: 2px;
+    width: 100px;
+    background-color: #e7ad48;
+}
+#our-work-part{
+    position: relative;
+}
+.falgun{
+    height: 2px;
+    width: 100px;
+    background-color: #e7ad48;
+    position: absolute;
+    top: 158px;
+    left: 40%;
+}
+
+
+.mixit-main{
+    margin-top: 50px;
+}
+.mixit-main button{
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+.mixit-main button:hover{
+    background-color: #709dca;
+    border-radius: 10px;
+}
+
+.mixit-images{
+    position: relative;
+}
+
+
+.nichenamo{
+    margin-bottom: 35px;
+}
+.mixit-images:hover .bird-imag-overlay{
+    opacity: 1;
+    height: 100%;
+}
+.bird-imag-overlay{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(231, 173, 72, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.bird-imag-overlay i{
+    margin-top: 105px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.bird-imag-overlay h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+}
+.bird-imag-overlay p{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* our work part end */
+/*  testimonial part start */
+
+#testimonila-main{
+    margin-top: 80px;
+}
+
+.te-txt h3{
+    color: #709dca;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+.te-txt h3::before{
+    position: absolute;
+    content: '';
+    top: 55px;
+    left: 420px;
+    height: 2px;
+    width: 100px;
+    background-color: #e7ad48;
+}
+.wechat i{
+    font-size: 26px;
+    color: #e7ad48;
+    padding-top: 10px;
+    position: relative;
+}
+.wechat i::after{
+    position: absolute;
+    content: '';
+    top: 24px;
+    left: 50px;
+    height: 2px;
+    width: 100px;
+    background-color: #e7ad48;
+}
+
+
+.testimonila-txt{
+    margin: 0 13px;
+}
+.testimonila-txt p{
+    font-size: 13px;
+    color: #394b50;
+    padding-top: 100px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+}
+
+.testimonila-txt .fa-user{
+    color: #394b50;
+    padding-top: 40px;
+}
+.testimonila-txt .mota{
+    font-size: 13px;
+    font-weight: 800;
+    color: #394b50;
+    padding-right: 8px;
+}
+.testimonila-txt .patlu{
+    font-size: 13px;
+    font-weight: 400;
+    color: #394b50;
+}
+
+
+.testimain .slick-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+.testimain .slick-dots li{
+    display: inline-block;
+}
+
+
+.testimain .slick-dots li button{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 2px solid #999;
+    margin: 0 5px;
+    color: transparent;
+
+}
+
+.testimain .slick-dots li.slick-active button{
+    background-color: rgb(17, 36, 36);
+}
+/*  testimonial part end */
+
+/* bottom part start */
+
+
+#bottom-part-main{
+    background-color: #394b50;
+    /* height: 350px; */
+    width: 100%;
+}
+
+.bttm-main{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.bttm-main img{
+    padding-bottom: 30px;
+}
+
+.bttm-main p{
+    font-size: 14px;
+    color: #c3c3c3;
+    line-height: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.bttm-main h3{
+    color: #c3c3c3;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 26px;
+}
+.fa-map-marker-alt{
+    padding-right: 8px;
+    margin-top: 20px;
+}
+.fa-envelope{
+    padding-right: 8px;
+    margin-top: 10px;
+}
+.fa-phone-alt{
+    padding-right: 8px;
+    margin-top: 10px;
+}
+
+
+.bttm-main .fa-twitter{
+    color: #709dca;
+    padding-right: 8px;
+    font-size: 18px;
+}
+
+.paddddddd{
+    padding-top: 10px;
+    
+}
+
+.bluish{
+    color: #709dca;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btntypkichuekta{
+    margin-top: 30px;
+}
+.btntypkichuekta input{
+    background-color: #172227;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.btntypkichuekta ::placeholder{
+    padding-left: 10px;
+    color: #c3c3c3;
+    opacity: 0.5;
+}
+
+input{
+    color: aliceblue;
+    padding-left: 10px;
+    text-align: center;
+}
+.btntypkichuekta button{
+    border: 0;
+    border-radius: 6px;
+    background-color: #709dca;
+    padding: 10px 14px;
+    font-weight: 700;
+    margin-left: -10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* bottom part end */
+
+#finishline{
+    height: 90px;
+    width: 100%;
+    background-color: #172227;
+}
+
+.f-txt p{
+    color: #c3c3c3;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 90px;
+}
+.by-txt p{
+    color: #c3c3c3;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 90px;
+    text-align: center;
+}
+.interok-txt{
+    text-align: end;
+    line-height: 90px;
+    
+}
+
+.interok-txt i{
+    background-color: #2c3b42;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin: 0 5px;
+}
+
+.interok-txt i:hover{
+    background-color: #709dca;
+}
+/* the end */
